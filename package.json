@@ -1,0 +1,23 @@
+{
+  "name": "answerbot-ai-faq",
+  "version": "1.0.0",
+  "description": "AI-powered FAQ and customer support automation REST API",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "@google/genai": "latest",
+    "bcrypt": "latest",
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "jsonwebtoken": "latest",
+    "mongoose": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "latest"
+  }
+}
